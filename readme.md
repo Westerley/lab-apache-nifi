@@ -1,11 +1,13 @@
-Laboratório realizado a partir dos artigos de referências
+Laboratório realizado a partir dos artigos de referência
 
 ### Execução
-$ docker-compose pull
-$ docker-compose up -d
-$ docker exec -it nifi bash
-$ cd /home/nifi
-$ wget https://jdbc.postgresql.org/download/postgresql-42.2.18.jar
+```sh
+docker-compose pull
+docker-compose up -d
+docker exec -it nifi bash
+cd /home/nifi
+wget https://jdbc.postgresql.org/download/postgresql-42.2.18.jar
+```
 
 ### Referências
 
